@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Entities.fs"/>
+        <Compile Include="TaskContext.fs"/>
+        <Compile Include="TaskRepository.fs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.6.20312.4"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-preview.6.20305.6"/>
+    </ItemGroup>
+
+</Project>
