@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{56E2CF6E-EDD2-4E7D-A15A-55EAEB69B29C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FSharpEFCore" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="DemoApi" expanded="True">
+                <Node name="Properties" expanded="True">
+                  <Node name="launchSettings.json" selected="True" />
+                </Node>
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API.DemoApi PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
