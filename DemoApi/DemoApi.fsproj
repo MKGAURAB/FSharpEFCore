@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>FSharpEFCore</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Controllers\TaskController.fs" />
+        <Compile Include="Startup.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Database\Database.fsproj" />
+    </ItemGroup>
+
+</Project>
